@@ -156,7 +156,7 @@ def _make_npz(path_npz, url, model):
     print('Now loading caffemodel (usually it may take few minutes)')
     C3DVersion1.convert_caffemodel_to_npz(path_caffemodel, path_npz)
     npz.load_npz(path_npz, model)
-    return n
+    return npz  # 待定
     
 
 

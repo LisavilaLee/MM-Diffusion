@@ -3,7 +3,7 @@ from collections import OrderedDict
 import tensorflow_hub as hub
 import torch
 
-from src_pytorch.fvd.pytorch_i3d import InceptionI3d
+from pytorch_i3d import InceptionI3d
 
 
 def convert_name(name):

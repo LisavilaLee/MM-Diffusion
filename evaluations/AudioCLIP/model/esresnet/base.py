@@ -11,9 +11,9 @@ import torchvision as tv
 
 
 sys.path.append(os.path.abspath(f'{os.getcwd()}/evaluations/AudioCLIP'))
-from model.esresnet import attention
-from utils.transforms import scale
-import ignite_trainer as it
+from ...model.esresnet import attention
+from ...utils.transforms import scale
+from ....AudioCLIP import ignite_trainer as it
 from typing import cast
 from typing import List
 from typing import Type

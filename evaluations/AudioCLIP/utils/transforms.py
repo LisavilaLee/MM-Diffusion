@@ -5,7 +5,7 @@ import numpy as np
 import torch
 import torchvision as tv
 
-import ignite_trainer as it
+from ...AudioCLIP import ignite_trainer as it
 
 
 def scale(old_value, old_min, old_max, new_min, new_max):
